@@ -1,12 +1,12 @@
 {
-  "name": "pipeline2",
+  "name": "functional-test",
   "environment_variables": [],
   "group" : "demo",
   "materials": [
     {
       "type": "dependency",
       "name": "dependency",
-      "pipeline": "pipeline1",
+      "pipeline": "build",
       "stage": "build"
     },
     {
@@ -16,35 +16,6 @@
     }
   ],
   "stages": [
-    {
-      "name": "build",
-      "fetch_materials": true,
-      "never_cleanup_artifacts": false,
-      "clean_working_directory": false,
-      "environment_variables": [],
-      "jobs": [
-        {
-          "name": "build",
-          "environment_variables": [],
-          "tabs": [],
-          "resources": [],
-          "artifacts": [],
-          "properties": [],
-          "run_instance_count": null,
-          "timeout": 0,
-          "tasks": [
-            {
-              "type": "exec",
-              "run_if": "passed",
-              "on_cancel" : null,
-              "command": "./build.sh",
-              "arguments": [],
-              "working_directory": null
-            }
-          ]
-        }
-      ]
-    },
     {
       "name": "test",
       "fetch_materials": true,
@@ -66,11 +37,8 @@
               "type": "exec",
               "run_if": "passed",
               "on_cancel" : null,
-              "command": "ls",
-              "arguments": [
-                "-l",
-                "."
-              ],
+              "command": "./build.sh",
+              "arguments": [],
               "working_directory": null
             }
           ]
