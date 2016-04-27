@@ -4,7 +4,7 @@
   "group" : "demo",
   "materials": [
     {
-      "url": "https://github.com/tomzo/gocd-json-config-example.git",
+      "url": "/Users/go/gocd-demo-config-repo-code",
       "type": "git"
     }
   ],

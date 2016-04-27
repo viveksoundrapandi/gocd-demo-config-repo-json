@@ -10,7 +10,7 @@
       "stage": "build"
     },
     {
-      "url": "/Users/aravindsv/Projects/go/demo-config-repo-elastic-agents/gocd-demo-config-repo-code",
+      "url": "/Users/go/gocd-demo-config-repo-code",
       "type": "git",
       "name": "code"
     }
