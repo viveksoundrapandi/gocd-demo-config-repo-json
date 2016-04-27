@@ -13,7 +13,7 @@
       "type": "dependency",
       "name": "functional-test",
       "pipeline": "functional-test",
-      "stage": "build"
+      "stage": "test"
     }
   ],
   "stages": [
