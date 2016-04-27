@@ -5,13 +5,13 @@
   "materials": [
     {
       "type": "dependency",
-      "name": "dependency",
+      "name": "pipeline1",
       "pipeline": "pipeline1",
       "stage": "build"
     },
     {
       "type": "dependency",
-      "name": "dependency",
+      "name": "pipeline2",
       "pipeline": "pipeline2",
       "stage": "build"
     }
