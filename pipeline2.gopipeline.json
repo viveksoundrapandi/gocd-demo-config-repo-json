@@ -12,7 +12,7 @@
     {
       "url": "/Users/aravindsv/Projects/go/demo-config-repo-elastic-agents/gocd-demo-config-repo-code",
       "type": "git",
-      "name": "code",
+      "name": "code"
     }
   ],
   "stages": [
