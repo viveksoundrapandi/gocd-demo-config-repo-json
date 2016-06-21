@@ -10,7 +10,7 @@
       "stage": "build"
     },
     {
-      "url": "/Users/go/gocd-demo-config-repo-code",
+      "url": "https://github.com/arvindsv/gocd-demo-config-repo-code",
       "type": "git",
       "name": "code"
     }
